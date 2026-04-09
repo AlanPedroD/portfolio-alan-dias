@@ -11,4 +11,4 @@ Fazer um resumo dos projetos que venho realizando na minha trajetória de aprend
 - JavaScript  
 - Bootstrap
 
-🔗 [Acessar Portfólio](https://alanpedrod.github.io/meu-portfolio-2025-ofc/)
+🔗 [Acessar Portfólio](https://portfolio-alan-dias-liart.vercel.app/)
