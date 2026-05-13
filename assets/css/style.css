@@ -266,6 +266,7 @@ header {
     background: transparent;
     color: var(--text);
     border-color: var(--primary);
+    cursor: pointer;
 }
 
 .btn-secondary:hover {
@@ -344,4 +345,45 @@ footer {
         max-width: 300px;
         justify-content: center;
     }
+}
+
+
+/* CSS CURRÍCULO*/
+.curriculo-btn-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.curriculo-opcoes {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+  z-index: 100;
+  min-width: 160px;
+  margin-top: 6px;
+}
+
+.curriculo-opcoes a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.curriculo-opcoes a:hover {
+  background: #f0f0f0;
+}
+
+.curriculo-btn-wrapper:hover .curriculo-opcoes {
+  display: block;
 }
