@@ -146,6 +146,7 @@ header {
 .skill-icon .api { color: #48657C; }
 .skill-icon .java { color: #DF111E; }
 .skill-icon .react { color: #2176BB; }
+.skill-icon .node { color: #2176BB; }
 
 .skill-name {
     font-size: 0.95rem;
